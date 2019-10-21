@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testing Table</title>
+    <style>
+    table, th, td{
+       border-collapse: collapse; 
+    }
+    </style>
+</head>
+<body>
+    <h1 align="center">Table</h1>
+    <table border="1" style="width: 400px;" align="center">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Dana</td>
+            <td rowspan="2">Male</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Richard</td>
+            <!--<td>Male</td>-->
+        </tr>
+        <tr>
+            <td colspan="2">003</td>
+            <!--<td>Dalis</td>-->
+            <td>Female</td>
+        </tr>
+    </table><hr>
+    <table border="1">
+        <tr>
+            <th colspan="4">invoice</th>
+            
+        </tr>
+        <tr>
+            <td>No</td>
+            <td colspan="2">Item</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td rowspan="2">01</td>
+            <td><ul><li>Coka</li>
+            <li>Pepsi</li>
+            </ul></td>
+            <td><img src="../image/aa.jpg" alt="case" width="100px" height="200px"></td>
+            <td>10$</td>
+        </tr>
+        <tr>
+           <!-- <td></td>
+            <td></td>
+            <td></td>-->
+            <td>10$</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

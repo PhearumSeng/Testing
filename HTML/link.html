@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Link</title>
+</head>
+<body>
+    <!--Link Target Blank-->
+  <a href="https://www.w3schools.com/" target="_blank">Target_Blank</a>  <br>
+  <a href="https://www.w3schools.com/" target="_new">Target_New</a> <br>
+  <a href="https://www.w3schools.com/" target="_self">Target_Self</a> <hr>
+
+  <a href="#beer">Go to beer</a>
+  <h1 id="food">
+        FOOD: Since the first release of Visual Studio Code, one of our focuses has been to simplify the daily workflow for developers by enabling them to debug their code directly from the editor. We started out with .NET and Node.js debugging, and today we are taking the next step by introducing our Chrome Debugger for Visual Studio Code.
+        Our Chrome Debugger allows front-end developers to debug their client-side JavaScript code running inside Google Chrome directly from Visual Studio Code.
+  </h1>
+  <h1 id="drink">
+        DRINK: Our debugger works by connecting to Chrome over its Chrome Debugger protocol, where we map files loaded in the browser to the files open in Visual Studio Code. This means developers now can set breakpoints directly in their source code, set up variables to watch and see the full call stack when debugging — all without leaving the editor.
+        In the above example, we are showing an AngularJS app bundled and minified via Browserify being debugged from VS Code. This works because our debugger understands JavaScript Source Maps, which we’ll use to enable developers to debug straight from their original source, and not the transpiled result that the browser sees. Supporting source maps also enables debugging of TypeScript straight from VS Code.
+        For now, Chrome needs to be started with remote debugging enabled, and only supports one concurrent connection. This means if you open up DevTools inside Chrome, the connection to VS Code will get terminated by Chrome. This is slightly annoying, and we hope this issue will be fixed sometime soon.
+        
+  </h1>
+  <h1 id="beer">
+        BEER: In this first release, we support the following features:
+        Setting breakpoints, including within source files when source maps are enabled
+        TypeScript, via source maps
+        Stepping, including using the buttons on the Chrome page
+        Locals scope variables via the VS Code Locals pane
+        Debugging eval scripts, script tags, and scripts that are added dynamically
+        Watches via the VS Code Watch panel.
+        The debug console
+        Most console APIs
+  </h1>
+  <a href="#food">Go to top</a>
+  <!--List-->
+  <ul>
+      <li>Coffe</li>
+      <li>GreenTea</li>
+      <li>Food</li>
+  </ul>
+  <ol>
+      <li>Coffe</li>
+      <li>GreenTea</li>
+      <li>Food</li>
+  </ol>
+  <dl>
+      <dt>Coffe</dt>
+      <dd>Ice-latte</dd>
+      <dt>GreenTea</dt>
+      <dd>BlueMakarita</dd>
+      <dt>Food</dt>
+      <dd>Karii</dd>
+  </dl>
+</body>
+</html>
